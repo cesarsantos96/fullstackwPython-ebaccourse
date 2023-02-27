@@ -51,4 +51,4 @@ I will  be doing parallel projects along with the projects proposed by EBAC, for
     - Selection About
     - Forms and Footer
     - Deploy
-    - Exercise 
+    - Exercises
