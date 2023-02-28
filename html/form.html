@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <input type="text" placeholder="Seu Nome" />
+        <br />
+        <label>Seu e-mail</label>
+        <input id="email" type="email" />
+        <br>
+        <input type="tel" placeholder="Seu telefone" />
+        <br />
+        <input type="number" max="10" min="2" step="2" />
+        <input type="file" />
+        <br />
+        <input type="color" />
+        <br />
+        <input type="checkbox" id="termos" />
+
+        <label>Aceito os termos</label>
+
+        <p>
+            Qual a sua cor favorita ?
+        </p>
+
+        <input type="radio" name="cor-favorita" id="cor-vermelha" /><label for="cor-vermelha">Vermelho</label>
+        <input type="radio" name="cor-favorita" id="cor-laranja" /><label for="cor=laranja">Laranja</label>
+        <input type="radio" name="cor-favorita" id="cor-azul" /><label for="cor-azul">Azul</label>
+        <br />
+        <label>Qual o seu filme favorito ?</label>
+        <select>
+
+            <option>A Cruzada</option>
+            <option>Interstellar</option>
+            <option>Avenger - Endgame</option>
+        </select>
+        <br />
+
+        <textarea></textarea>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
+    </form>
+</body>
+
+</html>
