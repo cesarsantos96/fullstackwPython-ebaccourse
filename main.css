@@ -5,8 +5,7 @@
     font-family: sans-serif;
 }
 
-body {
-}
+
 
 .container {
     margin: 80px auto;
@@ -18,7 +17,9 @@ form {
     margin-top: 40px;
 }
 
-input, textarea, button {
+input,
+textarea,
+button {
     display: block;
     padding: 8px;
     margin-bottom: 8px;
@@ -39,4 +40,11 @@ button {
 
 button:hover {
     background-color: #27ae60;
+}
+
+.sucess-message {
+    background-color: #27ae60;
+    padding: 16px;
+    color: #fff;
+    display: none;
 }

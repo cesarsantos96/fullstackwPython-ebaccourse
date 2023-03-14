@@ -8,7 +8,8 @@ function validaNome(nomeCompleto) {
 form.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    const nomeBeneficiario = document.getElementById('nome-Beneficiario');
+    const nomeBeneficiario = document.getElementById('nome-beneficiario');
+    ;
     if (!validaNome(nomeBeneficiario.value)) {
         alert('O nome não está completo');
     } else {
